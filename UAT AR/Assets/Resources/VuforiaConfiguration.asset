@@ -13,32 +13,31 @@ MonoBehaviour:
   m_Name: VuforiaConfiguration
   m_EditorClassIdentifier: 
   vuforia:
-    vuforiaLicenseKey: 
+    vuforiaLicenseKey: AV22LuH/////AAABmcZumLiAc06OiIHPH868ByQzK09k2ReKfwSY3JCLXpIzcDnEQB4jlRc5RTYjpJ/F5IZfBSi80J5/z74CeY94WlQevxrHR37vtEG7iEm4X6guqhkBI8s/MMIp8k6zB8Cg2rm/XDUSAc5x7LBRdjhePBy+bM9Qc43GHEwxMjEA4jKBCd8wCtX2k8c+C/BdHyrKzKDf5Ppspaj1Wb0MqYrADh772v3AjnbtQ404nANOD5BCcQ0DgqSPQuMLM/+Aw/0BqWEhdGmkgzN3e/zYMx0hAa1NBxqJluNj5/2D3UXwxCIMCDuTQS3fXhr1uWUHc4fGzDe17vOGG3+bBJiSqdyjx2VWZFgwJKfDy6c4S0kIX00K
     ufoLicenseKey: QVl1cVkzei8vLy8vQUFBQUtNWXg5MW5tNVVMeGpuRzVycDA2dVI4ZUJpOVE0VlhsZ2hyR05OQS82aS80WDBURytqdXEwbVN1cWh1eGRsTmluYmJQZzZ3TUdWT3pLdXljaUtpTFF2enRNVlZqK1lsd0JTSG5rQ2FLOUp4YnNqZ1pVdDlxZURxaVRVVStOOVRSYW0xU1NCMTY1L1Q3NUJrVkxHQVdSYmxnUWMvZ2ZKQlVOZHdmSUZ0THhNUUViMUF4N0NMZHV6aXBZSnZHUU00eERyZ3BMSyt6MS84NnE1TVJsNUhWd1VoQTYyUkNwV0J6ZEZDVDVqM1I3ZWlwVzNpVnFkL2F6T3ZSRmVKbU9ReUQwZWpKdjZWUjYyaVJ1S2cyN3pjRGJNVk9zOHlDR1dCMmkzRDdXdmYrNSt2N2l1dWRSUFFuWnkvN1MwNldvVkFLL0pVUFRBM2RNNWx3K0x2dEFHeEtkbHd5cDZONEt4N0s0Y3ZEMmFOaWFJU1A=
     delayedInitialization: 0
     cameraDeviceModeSetting: -1
     maxSimultaneousImageTargets: 1
     maxSimultaneousObjectTargets: 1
+    virtualSceneScaleFactor: 1
     useDelayedLoadingObjectTargets: 0
     modelTargetRecoWhileExtendedTracked: 1
-    version: 1.0.0
-    eulaAcceptedVersions: '{"Values":["8.1","8.3","8.5"]}'
+    version: 9.3.3
+    eulaAcceptedVersions: '{"Values":["8.1","8.3","8.5","9.3"]}'
+    modelTargetMode: 0
   database:
     disableModelExtraction: 0
   videoBackground:
     numDivisions: 2
     videoBackgroundShader: {fileID: 4800000, guid: f40623b353e2f1943b1b3ba42975db7a,
       type: 3}
+    unlitShader: {fileID: 10752, guid: 0000000000000000f000000000000000, type: 0}
     videoBackgroundEnabled: 1
   deviceTracker:
-    autoInitTracker: 0
     autoStartTracker: 0
-    arcoreRequirement: 0
-    autoImportArcore: 0
-  smartTerrain:
-    autoInitTracker: 0
-    autoStartTracker: 0
+    arcoreRequirement: 1
+    autoImportArcore: 1
+  playmode:
+    playModeType: 0
   webcam:
-    deviceNameSetInEditor: 
-    turnOffWebCam: 0
     renderTextureLayer: 30
